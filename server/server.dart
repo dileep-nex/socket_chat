@@ -30,7 +30,7 @@ void main() async {
         },
       );
 
-      // Send welcome message
+      // Send welcome message fsd
       socket.add(jsonEncode({
         'type': 'system',
         'message': 'Welcome to the chat!',
