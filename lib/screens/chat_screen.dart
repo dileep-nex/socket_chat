@@ -83,6 +83,7 @@ class _ChatScreenState extends State<ChatScreen> {
         _connectionStatus = 'Connecting...';
       });
 
+
       channel = WebSocketChannel.connect(
         Uri.parse('ws://localhost:3000'),
       );
